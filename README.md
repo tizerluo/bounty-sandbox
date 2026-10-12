@@ -11,3 +11,15 @@ from addition import add
 assert add(2, 3) == 5
 assert add(-2, 3) == 1
 ```
+
+## `bounty_math.add(a, b)`
+
+`add(a, b)` returns the sum of two integers and raises `TypeError` for any other input type.
+
+```python
+from bounty_math import add
+assert add(2, 3) == 5
+assert add(-4, 1) == -3
+```
+
+Run the tests with `python -m pytest tests/`.
